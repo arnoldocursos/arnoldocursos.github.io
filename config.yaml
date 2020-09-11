@@ -1,42 +1,17 @@
 baseURL: https://arnoldocursos.com.br
 DefaultContentLanguage: pt-br
 
-languages:
-  en:
-    menu:
-      header:
-      - Name: about
-        URL: '#sobre'
-      - Name: courses
-        URL: '#cursos'
-      - Name: contact
-        URL: '#contato'
-    params:
-      title: HAHAHAHA
-  pt-br:
-    menu:
-      header:
-      - Name: sobre
-        URL: '#sobre'
-      - Name: cursos
-        URL: '#cursos'
-      - Name: contato
-        URL: '#contato'
-    params:
-      title: KKKKKK
-  es:
-    menu:
-      header:
-      - Name: about
-        URL: '#sobre'
-      - Name: courses
-        URL: '#cursos'
-      - Name: contact
-        URL: '#contato'
-    params:
-      title: KKKKKK
+menu:
+  header:
+  - Name: sobre
+    URL: '#sobre'
+  - Name: cursos
+    URL: '#cursos'
+  - Name: contato
+    URL: '#contato'
 
 params:
+  title: "Arnoldo Cursos"
   sections:
     - _showcase
     # - about
